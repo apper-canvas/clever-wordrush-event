@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "currentLevel": 1,
+    "score": 0,
+    "timeRemaining": 120,
+    "letters": ["W", "O", "R", "D", "G", "A", "M", "E"],
+    "foundWords": [],
+    "hintsRemaining": 3
+  },
+  {
+    "id": 2,
+    "currentLevel": 3,
+    "score": 450,
+    "timeRemaining": 85,
+    "letters": ["Q", "U", "I", "C", "K", "L", "Y", "M", "A", "P"],
+    "foundWords": ["QUICK", "LACK", "PLAY", "MAP", "LAY"],
+    "hintsRemaining": 1
+  },
+  {
+    "id": 3,
+    "currentLevel": 5,
+    "score": 820,
+    "timeRemaining": 45,
+    "letters": ["B", "R", "A", "V", "E", "S", "T", "O", "R", "M", "Y"],
+    "foundWords": ["BRAVE", "STORM", "VEST", "MOST", "STORY", "ROAST", "YMES"],
+    "hintsRemaining": 0
+  }
+]

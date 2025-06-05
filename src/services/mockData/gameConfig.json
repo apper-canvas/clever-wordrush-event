@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "difficulty": "medium",
+    "soundEnabled": true,
+    "theme": "dark",
+    "hintsPerGame": 3
+  },
+  {
+    "id": 2,
+    "difficulty": "easy",
+    "soundEnabled": false,
+    "theme": "light",
+    "hintsPerGame": 5
+  },
+  {
+    "id": 3,
+    "difficulty": "hard",
+    "soundEnabled": true,
+    "theme": "dark",
+    "hintsPerGame": 1
+  },
+  {
+    "id": 4,
+    "difficulty": "expert",
+    "soundEnabled": true,
+    "theme": "dark",
+    "hintsPerGame": 0
+  }
+]

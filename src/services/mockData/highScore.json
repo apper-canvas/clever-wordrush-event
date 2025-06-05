@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "score": 1250,
+    "wordsFound": 15,
+    "longestWord": "QUICKLY",
+    "level": 6,
+    "timestamp": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": 2,
+    "score": 980,
+    "wordsFound": 12,
+    "longestWord": "MASTER",
+    "level": 5,
+    "timestamp": "2024-01-14T16:45:00Z"
+  },
+  {
+    "id": 3,
+    "score": 875,
+    "wordsFound": 11,
+    "longestWord": "PLAYER",
+    "level": 4,
+    "timestamp": "2024-01-14T09:20:00Z"
+  },
+  {
+    "id": 4,
+    "score": 760,
+    "wordsFound": 10,
+    "longestWord": "BRIGHT",
+    "level": 4,
+    "timestamp": "2024-01-13T14:15:00Z"
+  },
+  {
+    "id": 5,
+    "score": 650,
+    "wordsFound": 9,
+    "longestWord": "SMART",
+    "level": 3,
+    "timestamp": "2024-01-13T11:30:00Z"
+  },
+  {
+    "id": 6,
+    "score": 540,
+    "wordsFound": 8,
+    "longestWord": "GAME",
+    "level": 3,
+    "timestamp": "2024-01-12T20:45:00Z"
+  },
+  {
+    "id": 7,
+    "score": 420,
+    "wordsFound": 6,
+    "longestWord": "WORD",
+    "level": 2,
+    "timestamp": "2024-01-12T15:20:00Z"
+  },
+  {
+    "id": 8,
+    "score": 350,
+    "wordsFound": 5,
+    "longestWord": "RUSH",
+    "level": 2,
+    "timestamp": "2024-01-11T18:30:00Z"
+  },
+  {
+    "id": 9,
+    "score": 280,
+    "wordsFound": 4,
+    "longestWord": "FAST",
+    "level": 1,
+    "timestamp": "2024-01-11T12:15:00Z"
+  },
+  {
+    "id": 10,
+    "score": 190,
+    "wordsFound": 3,
+    "longestWord": "PLAY",
+    "level": 1,
+    "timestamp": "2024-01-10T21:45:00Z"
+  }
+]

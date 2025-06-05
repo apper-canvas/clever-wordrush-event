@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, #6C63FF, #4ECDC4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .game-board-bg {
+    background: radial-gradient(circle at center, rgba(108, 99, 255, 0.1) 0%, transparent 70%);
+  }
+}
+
+/* Custom animations */
+@keyframes confetti {
+  0% { transform: scale(0) rotate(0deg); opacity: 1; }
+  100% { transform: scale(1) rotate(720deg); opacity: 0; }
+}
+
+.confetti {
+  animation: confetti 1s ease-out forwards;
+}
+
+/* Letter tile custom styles */
+.letter-tile {
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.letter-tile:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(108, 99, 255, 0.5);
+}
+
+.letter-tile.selected {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(78, 205, 196, 0.8);
+}
+
+/* Timer bar animation */
+.timer-bar {
+  transition: width 1s linear;
+}
+
+.timer-urgent {
+  animation: pulse 0.5s ease-in-out infinite alternate;
+}
+
+/* Word validation effects */
+.word-valid {
+  animation: glow 0.5s ease-in-out;
+}
+
+.word-invalid {
+  animation: shake 0.5s ease-in-out;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .game-board {
+    transform: scale(0.85);
+  }
+  
+  .letter-tile {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .game-board {
+    transform: scale(0.75);
+  }
+  
+  .letter-tile {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+}
