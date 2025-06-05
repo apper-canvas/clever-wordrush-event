@@ -64,13 +64,12 @@ import React from 'react'
             loading={loading}
           />
     
-          {isGameActive && (
+{isGameActive && (
             <>
               <GameBoard
                 letters={gameState?.letters}
-                onLetterClick={(letter, index) => handleLetterClick(letter, index, selectedLetters, currentWord)}
+                onLetterClick={(letter, index) => handleLetterClick(letter, index)}
                 currentWord={currentWord}
-                setCurrentWord={setCurrentWord}
                 onSubmitWord={submitWord}
                 onClearWord={clearCurrentWord}
                 wordValidation={wordValidation}
